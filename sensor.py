@@ -235,6 +235,10 @@ INVERTER_SENSOR_DESCRIPTIONS: tuple[HuaweiSolarSensorEntityDescription, ...] = (
         entity_category=EntityCategory.DIAGNOSTIC,
     ),
     HuaweiSolarSensorEntityDescription(
+        key=rn.FAULT_CODE,
+        entity_category=EntityCategory.DIAGNOSTIC,
+    ),
+    HuaweiSolarSensorEntityDescription(
         key=rn.STARTUP_TIME,
         icon="mdi:weather-sunset-up",
         device_class=SensorDeviceClass.TIMESTAMP,
@@ -859,6 +863,12 @@ BATTERY_TEMPLATE_SENSOR_DESCRIPTIONS: tuple[BatteryTemplateEntityDescription, ..
         battery_1_key=rn.STORAGE_UNIT_1_RUNNING_STATUS,
         battery_2_key=rn.STORAGE_UNIT_2_RUNNING_STATUS,
         translation_key="running_status",
+        entity_category=EntityCategory.DIAGNOSTIC,
+    ),
+    BatteryTemplateEntityDescription(
+        battery_1_key=rn.STORAGE_UNIT_1_FAULT_ID,
+        battery_2_key=None,
+        translation_key="fault_id",
         entity_category=EntityCategory.DIAGNOSTIC,
     ),
     BatteryTemplateEntityDescription(
