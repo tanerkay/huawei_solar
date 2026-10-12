@@ -360,6 +360,12 @@
             "ess_dischargeable_energy": {
                 "name": "Energia scaricabile ESS"
             },
+            "fault_code": {
+                "name": "Codice guasto"
+            },
+            "fault_id": {
+                "name": "ID guasto"
+            },
             "feed_in_power": {
                 "name": "Potenza di alimentazione in ingresso"
             },

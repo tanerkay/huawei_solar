@@ -360,6 +360,12 @@
             "ess_dischargeable_energy": {
                 "name": "Доступная энергия для разряда ESS"
             },
+            "fault_code": {
+                "name": "Код неисправности"
+            },
+            "fault_id": {
+                "name": "ID неисправности"
+            },
             "feed_in_power": {
                 "name": "Мощность отдачи в сеть"
             },

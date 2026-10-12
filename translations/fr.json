@@ -360,6 +360,12 @@
             "ess_dischargeable_energy": {
                 "name": "Énergie déchargée par l'ESS"
             },
+            "fault_code": {
+                "name": "Code de défaut"
+            },
+            "fault_id": {
+                "name": "ID de défaut"
+            },
             "feed_in_power": {
                 "name": "Puissance fournie"
             },

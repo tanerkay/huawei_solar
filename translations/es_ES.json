@@ -742,6 +742,12 @@
             "ess_dischargeable_capacity": {
                 "name": "ESS dischargeable capacity"
             },
+            "fault_code": {
+                "name": "Código de fallo"
+            },
+            "fault_id": {
+                "name": "ID de fallo"
+            },
             "feed_in_power": {
                 "name": "Feed in power"
             },

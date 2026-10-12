@@ -742,6 +742,12 @@
             "ess_dischargeable_capacity": {
                 "name": "ESS dischargeable capacity"
             },
+            "fault_code": {
+                "name": "Codi d'avaria"
+            },
+            "fault_id": {
+                "name": "ID d'avaria"
+            },
             "feed_in_power": {
                 "name": "Feed in power"
             },

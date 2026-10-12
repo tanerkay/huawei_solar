@@ -360,6 +360,12 @@
             "ess_dischargeable_energy": {
                 "name": "ESS entladbare Energie"
             },
+            "fault_code": {
+                "name": "Fehlercode"
+            },
+            "fault_id": {
+                "name": "Fehler-ID"
+            },
             "feed_in_power": {
                 "name": "Einspeiseleistung"
             },

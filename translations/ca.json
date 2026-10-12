@@ -360,6 +360,12 @@
             "ess_dischargeable_energy": {
                 "name": "ESS Dischargeable energy"
             },
+            "fault_code": {
+                "name": "Codi d'avaria"
+            },
+            "fault_id": {
+                "name": "ID d'avaria"
+            },
             "feed_in_power": {
                 "name": "Feed in power"
             },

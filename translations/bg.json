@@ -360,6 +360,12 @@
             "ess_dischargeable_energy": {
                 "name": "Разреждаема енергия (ESS)"
             },
+            "fault_code": {
+                "name": "Код на грешка"
+            },
+            "fault_id": {
+                "name": "ID на грешка"
+            },
             "feed_in_power": {
                 "name": "Мощност подадена към мрежата"
             },
